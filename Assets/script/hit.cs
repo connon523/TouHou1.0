@@ -7,6 +7,7 @@ public class hit : MonoBehaviour
 {
     public KeyCode KeyToPress;
     public GameObject drum = null;
+    public GameObject miss = null;
     public int A;
     public bool canBepress;
     // Start is called before the first frame update
@@ -47,8 +48,9 @@ public class hit : MonoBehaviour
         }
         if (other.tag == "miss")
         {
+            Instantiate(miss, Vector2.zero, Quaternion.identity);
             canBepress = false;
-        
+            
         }
     }
 

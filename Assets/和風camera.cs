@@ -11,7 +11,7 @@ public class 和風camera : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         
         transform.Translate(Vector3.right * Time.deltaTime * mSpeed);
