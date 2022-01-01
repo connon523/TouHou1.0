@@ -14,7 +14,7 @@ public class score : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
 
         countText.text = scores.ToString();
