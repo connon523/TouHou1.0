@@ -99,7 +99,12 @@ MonoBehaviour:
   KeyToPress: 0
   drum: {fileID: 2156044118551114159, guid: f6134050a40ea0e4abdb51f25592772c, type: 3}
   miss: {fileID: 2806334521569742769, guid: 44e33f1d9e0e3d041b2eb1664f29ec10, type: 3}
+  text:
+  - {fileID: 1128457447655161768, guid: aab0e22db816add49af527de897d156c, type: 3}
+  - {fileID: 1159101379922439330, guid: 2e9bcd6dc5248de46b4b9b3199133030, type: 3}
+  - {fileID: 6887043351701266894, guid: afe628994ca662f4990919bf4d1dbd53, type: 3}
   A: 0
+  B: 0
   canBepress: 0
 --- !u!114 &6034092834961273893
 MonoBehaviour:
