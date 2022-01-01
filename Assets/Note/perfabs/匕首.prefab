@@ -95,7 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82f6aac2aaceae04fad2bd1d02dd6c8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeyToPress: 122
+  KeyToPress: 120
+  drum: {fileID: 2156044118551114159, guid: f6134050a40ea0e4abdb51f25592772c, type: 3}
   A: 0
   canBepress: 0
 --- !u!58 &1232013194
@@ -111,6 +112,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.548119, y: 0}
+  m_Offset: {x: -4.2021646, y: 0}
   serializedVersion: 2
-  m_Radius: 0.53593296
+  m_Radius: 1.7625759

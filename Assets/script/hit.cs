@@ -6,7 +6,7 @@ using UnityEngine;
 public class hit : MonoBehaviour
 {
     public KeyCode KeyToPress;
-
+    public GameObject drum = null;
     public int A;
     public bool canBepress;
     // Start is called before the first frame update
@@ -23,8 +23,15 @@ public class hit : MonoBehaviour
         if (Input.GetKeyDown(KeyToPress))
         {
             if (canBepress)
-            {                           
-                gameObject.SetActive(false);
+            {
+                if (drum != null)
+                {
+                    gameObject.SetActive(false);
+                    Instantiate(drum, Vector2.zero, Quaternion.identity);
+                    
+                }
+                    
+                
             }
         }
 }

@@ -511,19 +511,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1232013194, guid: 91fd79e6eb935f349a10e61fae057f0f, type: 3}
-      propertyPath: m_Radius
-      value: 1.7625759
-      objectReference: {fileID: 0}
-    - target: {fileID: 1232013194, guid: 91fd79e6eb935f349a10e61fae057f0f, type: 3}
-      propertyPath: m_Offset.x
-      value: -4.2021646
-      objectReference: {fileID: 0}
-    - target: {fileID: 2756050087111275847, guid: 91fd79e6eb935f349a10e61fae057f0f,
-        type: 3}
-      propertyPath: KeyToPress
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 6616934341985565617, guid: 91fd79e6eb935f349a10e61fae057f0f,
         type: 3}
       propertyPath: m_Name
@@ -2244,6 +2231,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u9B3C\u706B1\u4E0A (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 5116456152528977072, guid: 54ececb3ca0f1c045b5e90abe55fb6e6,
+        type: 3}
+      propertyPath: drum
+      value: 
+      objectReference: {fileID: 2156044118551114159, guid: f6134050a40ea0e4abdb51f25592772c,
+        type: 3}
     - target: {fileID: 5671473490387056557, guid: 54ececb3ca0f1c045b5e90abe55fb6e6,
         type: 3}
       propertyPath: m_RootOrder
