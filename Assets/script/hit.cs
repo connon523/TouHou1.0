@@ -36,7 +36,8 @@ public class hit : MonoBehaviour
                     score.scores += 100;
                     if (drum != null)
                     {
-                        
+                        combo.cc += 1;
+                        Debug.Log(combo.cc);
                         gameObject.SetActive(false);
                         Instantiate(drum, Vector2.zero, Quaternion.identity);
                         Instantiate(text[0], transform.position, Quaternion.identity);
@@ -48,7 +49,9 @@ public class hit : MonoBehaviour
                     score.scores += 300;
                     if (drum != null)
                     {
-                       
+                        combo.cc += 1;
+                        Debug.Log(combo.cc);
+
                         gameObject.SetActive(false);
                         Instantiate(drum, Vector2.zero, Quaternion.identity);
                         Instantiate(text[1], transform.position, Quaternion.identity);
@@ -79,7 +82,7 @@ public class hit : MonoBehaviour
         {
             Instantiate(miss, Vector2.zero, Quaternion.identity);
             Instantiate(text[2], transform.position, Quaternion.identity);
-
+            combo.cc = 0;
             canBepress = false;
             
         }
